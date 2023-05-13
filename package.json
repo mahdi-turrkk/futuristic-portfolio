@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@vue/cli-service": "~5.0.0",
+    "file-loader": "^6.2.0",
     "vue-cli-plugin-vuetify": "~2.5.8"
   },
   "browserslist": [
