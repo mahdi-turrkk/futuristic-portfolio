@@ -28,6 +28,7 @@ const vuetify = createVuetify({
                         success: '#32CD32',
                         warning: '#FFC107',
                         background: '#111111',
+                        lightBack: '#ff333333'
                     }
                 }
         }
