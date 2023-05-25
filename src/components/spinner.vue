@@ -4,8 +4,6 @@
             <div class="circular-progress-circle">
                 <div class="segment" style="transform: rotate(0deg) skew(0deg)"></div>
             </div>
-            <div class="circular-progress-inner"
-                 :style="{'background' : useTheme().current.value.colors.background}"></div>
         </div>
         <div class="circular-progress">
             <div class="circular-progress-circle" style="margin-top: -240px">
