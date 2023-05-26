@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center px-6 px-md-16 d-inline-block mt-n16">
+    <a class="text-center px-6 px-md-16 d-inline-block mt-n16" :href="websiteUrl">
         <v-slide-x-transition>
             <v-icon size="55" class="d-inline-block text-secondary mt-n3 mr-n7"
                     v-if="isHover"
@@ -59,14 +59,14 @@
                     :style="{'text-shadow' : `0 0 20px ${useTheme().current.value.colors.secondary}`}">mdi-chevron-right
             </v-icon>
         </v-slide-x-transition>
-    </div>
+    </a>
 </template>
 
 <script setup>
 import {useDisplay, useTheme} from "vuetify";
 import {ref} from "vue";
 
-const props = defineProps(['btnText'])
+const props = defineProps(['btnText','websiteUrl'])
 
 const isHover = ref(false)
 </script>

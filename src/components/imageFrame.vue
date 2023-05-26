@@ -6,7 +6,7 @@
             <div class="borderTopRight"></div>
             <div class="borderBottomRight"></div>
             <div class="borderBottomLeft"></div>
-            <v-img width="100%" :src="imageSrc">
+            <v-img width="100%" :src="require('@/assets/'+imageSrc)">
             </v-img>
         </v-card>
     </v-container>

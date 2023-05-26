@@ -54,15 +54,17 @@
         class="card-shape-border px-10"
         color="secondary" v-if="useDisplay().smAndUp.value">
       <div class="text-primary font-weight-bold text-uppercase text-shadow"
+           style="color : rgba(0, 0, 0, 0)"
            :style="{'font-size' : titleFontSize}">{{ title }}
       </div>
       <div class="text-capitalize mx-3" :style="{'font-size' : desFontSize}">{{ description }}</div>
     </v-card>
-    <v-card style="overflow: visible;z-index: 0;padding-top: 56px;padding-bottom: 60px"
+    <v-card style="overflow: visible;z-index: 0;padding-top: 56px"
             ref="card"
-            class="card-shape-border px-10"
+            class="card-shape-border"
             color="transparent" v-if="useDisplay().smAndUp.value">
-      <div class="text-primary font-weight-bold text-uppercase text-shadow"
+      <div class="text-primary font-weight-bold text-uppercase"
+           style="color : rgba(0, 0, 0, 0)"
            :style="{'font-size' : titleFontSize}">{{ title }}
       </div>
       <div class="text-capitalize mx-3" :style="{'font-size' : desFontSize}" style="color : rgba(0, 0, 0, 0)">
@@ -73,7 +75,8 @@
         style="overflow: visible;z-index: 0;padding-top: 56px;padding-bottom: 60px;position: absolute;top: 2px;left: 0"
         class="card-shape-border px-10"
         color="secondary" v-if="useDisplay().smAndUp.value">
-      <div class="text-primary font-weight-bold text-uppercase text-shadow"
+      <div class="text-primary font-weight-bold text-uppercase"
+           style="color : rgba(0, 0, 0, 0)"
            :style="{'font-size' : titleFontSize}">{{ title }}
       </div>
       <div class="text-capitalize mx-3" :style="{'font-size' : desFontSize}">{{ description }}</div>

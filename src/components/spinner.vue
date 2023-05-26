@@ -107,7 +107,7 @@ const props = defineProps(['techName'])
 
 .circular-progress-value {
     position: absolute;
-    font-size: 200%;
+    font-size: 125%;
     font-family: 'JetBrains Mono';
     font-weight: bold;
     left: 50%;
