@@ -248,7 +248,7 @@
                     <v-col cols="12" lg="7" class="mt-n4 mt-md-10 mt-lg-16 px-16 mx-auto">
                       <card :number="project.number" :title="project.title" :description="project.description"/>
                     </v-col>
-                    <v-col cols="12" lg="5" class="px-10 mx-auto mt-sm-10 mt-md-0" align-self="center">
+                    <v-col cols="12" lg="5" class="px-10 mx-auto mt-sm-10 mt-md-6" align-self="center">
                       <image-frame :image-src="project.image"/>
                     </v-col>
                   </v-row>
@@ -458,7 +458,8 @@ const projects = ref([
   {
     number : 1,
     title : 'DornaTech (demo)',
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.',
+    description : '\n' +
+        'Dornatech is a Tabriz-based software company.Its website\'s front-end developed using Nuxt.js 2, Vue.js 2, and Vuetify 2. A demo version of the website is already available at dornatech.ir and will be officially published in the near future. Stay tuned to explore our innovative software solutions and learn more about our services.',
     image : 'dornatech.webp',
     text : 'see dornatech',
     url : 'https://dornatech.ir'
@@ -466,7 +467,10 @@ const projects = ref([
   {
     number : 2,
     title : 'Merkato24 (demo)',
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.',
+    description: '\n' +
+        'Merkato 24 is a digital marketplace for Africa, and its frontend has been developed using Nuxt.js 2, Vue.js 2, and Vuetify 2. The marketplace has three panels: public, user, and admin, which can be accessed through the URLs "/" for the public panel, "/user" for the user panel, and "/admin" for the admin panel.\n' +
+        '\n' +
+        'The frontend development is already complete and the backend is currently under development. Once the backend is finished, the frontend will be connected to it via an API.Merkato 24 has a demo version available at merkato24.netlify.app.',
     image : 'merkato24.webp',
     text : 'see merkato24',
     url : 'https://merkato24.netlify.app/'
