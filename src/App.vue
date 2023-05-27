@@ -245,7 +245,7 @@
                 </v-col>
                 <v-col cols="11" class="mx-auto mt-sm-10 mt-md-0">
                   <v-row>
-                    <v-col cols="12" lg="7" class="mt-n4 mt-md-10 mt-lg-16 px-16 mx-auto">
+                    <v-col cols="12" lg="7" class="mt-n4 mt-md-10 mt-lg-16 px-5 px-lg-16 mx-auto">
                       <card :number="project.number" :title="project.title" :description="project.description"/>
                     </v-col>
                     <v-col cols="12" lg="5" class="px-10 mx-auto mt-sm-10 mt-md-6" align-self="center">

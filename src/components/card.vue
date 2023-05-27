@@ -45,7 +45,7 @@
                 style="margin-left: -85px;font-weight: lighter;z-index: 1"></v-icon>
       </div>
       <div style="margin-top: -66px;position: relative;z-index: 2 !important"
-           class="text-h5 text-primary font-weight-bold">{{ number }}
+           class="text-h5 text-primary font-weight-bold ml-1">{{ number }}
       </div>
     </div>
     <v-card
