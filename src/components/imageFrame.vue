@@ -1,12 +1,12 @@
 <template>
     <v-container fluid>
         <v-card style="border-radius: 0;overflow: visible;background: rgba(255, 51, 51, 0.1)" :style="{'border' : `dashed 3px ${useTheme().current.value.colors.secondary}`}"
-                class="pa-10">
+                class="pa-5 pa-md-10">
             <div class="borderTopLeft"></div>
             <div class="borderTopRight"></div>
             <div class="borderBottomRight"></div>
             <div class="borderBottomLeft"></div>
-            <v-img width="100%" :src="require('@/assets/'+imageSrc)">
+            <v-img width="100%" :src="require('@/assets/'+imageSrc)" :alt="imageSrc">
             </v-img>
         </v-card>
     </v-container>

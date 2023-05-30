@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description"
+          content="This is the personal website of Mahdi Chavoshi, a frontend developer. On this website, you can find information about me, contact me, and explore the projects I have worked on"/>
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,4 +22,30 @@
 <div id="app" style="margin-top: 0"></div>
 <!-- built files will be auto injected -->
 </body>
+<style>
+    html {
+        scroll-behavior: smooth
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #ff333333;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #DE2828;
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #FF3333;
+    }
+</style>
 </html>

@@ -70,17 +70,17 @@
 <!--        name-->
         <v-col cols="12" md="7" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">Hi , I'm
-            </div>&lt; p /&gt;
+            </div>&lt; h5 /&gt;
             </div>
             <div class="text-grey pl-6 pl-lg-12 mt-6" :style="{'font-size' : tagFontSize}">&lt; h1 &gt;</div>
             <div class="text-snow pl-10 pl-lg-16" :style="{'font-size' : headerFontSize}">MAHDI CHAVOSHI</div>
             <div class="text-grey pl-6 pl-lg-12 mt-4" :style="{'font-size' : tagFontSize}">&lt; h1 /&gt;</div>
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3 mt-6" :style="{'font-size' : subHeaderFontSize}">
               Frontend developer
-            </div>&lt; p /&gt;
+            </div>&lt; h5 /&gt;
             </div>
           </div>
         </v-col>
@@ -94,9 +94,9 @@
 <!--        title of about-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">About me
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h5 /&gt;</div>
           </div>
         </v-col>
       </v-row>
@@ -115,9 +115,9 @@
 <!--        title of section-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">My Skills
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h5 /&gt;</div>
           </div>
         </v-col>
       </v-row>
@@ -125,9 +125,9 @@
       <v-row class="mt-0">
         <v-col cols="12" lg="12" class="text-start pl-4 pl-md-8 pl-lg-16 mx-auto">
           <div class="pl-lg-10 pl-xl-16 mx-3 mx-md-6 mb-4 mb-md-8" v-for="skill in skills">
-              <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; p &gt;<div
+              <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; h6 &gt;<div
                   class="d-inline-block text-primary px-3 mb-4" :style="{'font-size' : smallSubHeaderFontSize}">{{ skill.name }}
-              </div>&lt; p /&gt;</div>
+              </div>&lt; h6 /&gt;</div>
               <v-progress-linear
                   class="mx-auto"
                   style="width: 98%"
@@ -147,9 +147,9 @@
 <!--        title of section-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">My Languages
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h5 /&gt;</div>
           </div>
         </v-col>
       </v-row>
@@ -157,9 +157,9 @@
       <v-row class="mt-0">
         <v-col cols="12" md="7" class="text-start pl-4 pl-md-8 pl-lg-16 mx-auto">
           <div class="pl-lg-10 pl-xl-16 mx-3 mx-md-6 mb-4 mb-md-8" v-for="language in languages">
-            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; p &gt;<div
+            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; h6 &gt;<div
                 class="d-inline-block text-primary px-3 mb-4" :style="{'font-size' : smallSubHeaderFontSize}">{{ language.name }}
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h6 /&gt;</div>
             <div :style="{'font-size' : smallTagFontSize}" class="mx-6 mx-md-9">{{ language.expertise }}</div>
           </div>
         </v-col>
@@ -172,9 +172,9 @@
 <!--        title of section-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">Educatioal Background
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h5 /&gt;</div>
           </div>
         </v-col>
       </v-row>
@@ -182,9 +182,9 @@
       <v-row class="mt-0">
         <v-col cols="12" md="7" class="text-start pl-4 pl-md-8 pl-lg-16 mx-auto">
           <div class="pl-lg-10 pl-xl-16 mx-3 mx-md-6 mb-4 mb-md-8" v-for="education in educations">
-            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; p &gt;<div
+            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; h6 &gt;<div
                 class="d-inline-block text-primary px-3 mb-4" :style="{'font-size' : smallSubHeaderFontSize}">{{ education.schoolName}}
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h6 /&gt;</div>
             <div :style="{'font-size' : smallTagFontSize}" class="mx-6 mx-md-9">{{ education.degree }}</div>
             <div :style="{'font-size' : smallTagFontSize}" class="mx-6 mx-md-9">{{ education.time }}</div>
             <div :style="{'font-size' : smallTagFontSize}" class="mx-6 mx-md-9">{{ education.location }}</div>
@@ -199,9 +199,9 @@
 <!--        title of section-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">Experiences
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h5 /&gt;</div>
           </div>
         </v-col>
       </v-row>
@@ -209,9 +209,9 @@
       <v-row class="mt-0">
         <v-col cols="12" md="7" class="text-start pl-4 pl-md-8 pl-lg-16 mx-auto">
           <div class="pl-lg-10 pl-xl-16 mx-3 mx-md-6 mb-4 mb-md-8" v-for="experience in experiences">
-            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; p &gt;<div
+            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; h6 &gt;<div
                 class="d-inline-block text-primary px-3 mb-4" :style="{'font-size' : smallSubHeaderFontSize}">{{ experience.companyName}}
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h6 /&gt;</div>
             <div :style="{'font-size' : smallTagFontSize}" class="mx-6 mx-md-9">{{ experience.role }}</div>
             <div :style="{'font-size' : smallTagFontSize}" class="mx-6 mx-md-9">{{ experience.time }}</div>
             <div :style="{'font-size' : smallTagFontSize}" class="mx-6 mx-md-9">{{ experience.location }}</div>
@@ -226,9 +226,9 @@
 <!--        title of section-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
                 class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">Projects
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h5 /&gt;</div>
           </div>
         </v-col>
       </v-row>
@@ -239,9 +239,9 @@
             <v-carousel-item v-for="project in projects">
               <v-row>
                 <v-col cols="12" class="px-4 px-md-8 px-lg-16 mx-3 mx-lg-10">
-                  <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; p &gt;<div
+                  <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; h6 &gt;<div
                       class="d-inline-block text-primary px-3 mb-n3" :style="{'font-size' : smallSubHeaderFontSize}">{{ project.title}}
-                  </div>&lt; p /&gt;</div>
+                  </div>&lt; h6 /&gt;</div>
                 </v-col>
                 <v-col cols="11" class="mx-auto mt-sm-10 mt-md-0">
                   <v-row>
@@ -266,19 +266,19 @@
 <!--        title of section-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
-            <div class="text-grey" :style="{'font-size' : tagFontSize}">&lt; p &gt;<div
-                class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">Experiences
-            </div>&lt; p /&gt;</div>
+            <div class="text-grey font-weight-bold" :style="{'font-size' : tagFontSize}">&lt; h5 &gt;<div
+                class="d-inline-block text-primary px-3" :style="{'font-size' : subHeaderFontSize}">Contact Info
+            </div>&lt; h5 /&gt;</div>
           </div>
         </v-col>
       </v-row>
 <!--      contact list-->
       <v-row class="mt-0">
         <v-col cols="12" sm="6" xl="4" class="text-start px-4 px-md-8 px-lg-16 mx-auto" v-for="option in contactOptions" >
-          <a class="px-lg-10 px-xl-16 mx-3 mx-md-6 mb-4 mb-md-8 d-block" :href="option.to" style="text-decoration: none">
-            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; p &gt;<div
+          <a class="pl-lg-10 pl-xl-16 mx-3 mx-md-6 mb-4 mb-md-8 d-block" :href="option.to" style="text-decoration: none">
+            <div class="text-grey" :style="{'font-size' : smallTagFontSize}">&lt; h6 &gt;<div
                 class="d-inline-block text-primary px-3 mb-4" :style="{'font-size' : smallSubHeaderFontSize}">{{ option.title}}
-            </div>&lt; p /&gt;</div>
+            </div>&lt; h6 /&gt;</div>
             <div :style="{'font-size' : smallTagFontSize}" class="text-info mx-6 mx-md-9">{{ option.text }}</div>
           </a>
         </v-col>
@@ -434,7 +434,7 @@ const educations = ref([
     location : 'Tabriz , Iran'
   },
   {
-    schoolName : 'Allame jafari High School (Sampad)',
+    schoolName : 'Allame jafari High School',
     time : 'Jul 2013 - Jul 2019',
     degree : 'High School Diploma of Mathematics',
     location : 'Tabriz , Iran'

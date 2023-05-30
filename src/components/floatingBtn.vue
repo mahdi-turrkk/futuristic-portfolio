@@ -1,5 +1,5 @@
 <template>
-  <div class="d-inline-block" style="position: fixed;bottom: 20px;left: 20px;z-index: 999">
+  <div class="d-inline-block" style="position: fixed;bottom: 25px;left: 30px;z-index: 999">
     <v-slide-y-reverse-transition>
       <div v-if="showOptions">
         <div v-for="option in connectOptions" class="mb-2">
