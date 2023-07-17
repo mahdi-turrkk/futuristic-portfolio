@@ -324,13 +324,18 @@ const about = reactive({
 const allSkills = ref([
   {
     name : 'Vue.Js',
-    value : '90',
+    value : '95',
     color : '#41B883'
   },
   {
     name : 'Nuxt.Js',
-    value: '85',
+    value: '90',
     color : '#3b8070'
+  },
+  {
+    name : 'Tailwind Css',
+    value: "75",
+    color : '#38B7F0'
   },
   {
     name : 'Vuetify.Js',
@@ -339,7 +344,7 @@ const allSkills = ref([
   },
   {
     name : 'JavaScript',
-    value: "85",
+    value: "90",
     color : '#EFD81D'
   },
   {
@@ -349,7 +354,7 @@ const allSkills = ref([
   },
   {
     name : 'Node.Js',
-    value: "60",
+    value: "70",
     color : '#68a063'
   },
   {
@@ -362,7 +367,7 @@ const skills = computed(() => {
   if(showAllSkills.value)
     return allSkills.value
   else
-    return allSkills.value.slice(0,3)
+    return allSkills.value.slice(0,4)
 })
 const btnSize = computed(() => {
   if (useDisplay().smAndDown.value)
