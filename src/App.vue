@@ -334,7 +334,7 @@ const allSkills = ref([
   },
   {
     name : 'Tailwind Css',
-    value: "75",
+    value: "85",
     color : '#38B7F0'
   },
   {
