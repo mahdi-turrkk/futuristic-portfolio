@@ -313,9 +313,9 @@ const showAllSkills = ref(false)
 const about = reactive({
   number : "✦",
   title : "About me",
-  description : "Hello! I'm Mahdi Chavoshi, a front-end developer and computer engineering student based in Tabriz, Iran. I specialize in creating captivating user experiences with Nuxt.js, Vue.js, and Vuetify.js.\n" +
+  description : "Hello! I'm Mahdi Chavoshi, a front-end developer based in Tabriz, Iran. I specialize in creating captivating user experiences with Nuxt.js, Vue.js, and Vuetify.js.I have been employed as a Front-End Developer for three years, with two of those years dedicated to educational pursuits at university and one year engaged in professional work.\n" +
       "\n" +
-      "I have a strong educational background, currently in my final semester at Tabriz University. As an associate founder of Dornatech Software Company, I led front-end development for our website and worked on projects like merkato24.com.\n" +
+      "As an associate founder of Dornatech Software Company, I led front-end development for our website and worked on projects like merkato24.com.\n" +
       "\n" +
       "Passionate about continuous learning and staying up to date with industry trends, my goal is to make a positive impact in web development through exceptional user experiences.\n" +
       "\n" +
@@ -346,6 +346,11 @@ const allSkills = ref([
     name : 'JavaScript',
     value: "90",
     color : '#EFD81D'
+  },
+  {
+    name : 'TypeScript',
+    value: "80",
+    color : '#087ECE'
   },
   {
     name : 'Git',
