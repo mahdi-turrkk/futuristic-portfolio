@@ -21,14 +21,14 @@ const vuetify = createVuetify({
                 {
                     dark: true,
                     colors: {
-                        primary: '#DE2828',
-                        secondary: '#FF3333',
+                        primary: '#35A29F',
+                        secondary: '#00FFFF',
                         error: '#DC143C',
                         info: '#F7F7F7',
                         success: '#32CD32',
                         warning: '#FFC107',
                         background: '#111111',
-                        lightBack: '#ff333333'
+                        lightBack: '#00FFFF33'
                     }
                 }
         }

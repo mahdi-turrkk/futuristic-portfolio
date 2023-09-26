@@ -78,7 +78,7 @@ const props = defineProps(['techName'])
     left: 50%;
     width: 100vw;
     height: 100vw;
-    background: #FF3333;
+    background: #00FFFF;
     opacity: 50%;
     filter: brightness(200%) saturate(250%);
     transform-origin: 0 0;
@@ -101,8 +101,8 @@ const props = defineProps(['techName'])
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background: rgba(222, 40, 40, 0.1);
-    border: dashed 4px rgba(222, 40, 40, 0.5);
+  background: rgba(53,162, 159, 0.1);
+  border: dashed 4px rgba(53,162, 159, 0.5);
 }
 
 .circular-progress-value {
@@ -154,7 +154,7 @@ const props = defineProps(['techName'])
     left: 50%;
     width: 100vw;
     height: 100vw;
-    background: #FF3333;
+    background: #00FFFF;
     opacity: 50%;
     filter: brightness(200%) saturate(250%);
     transform-origin: 0 0;

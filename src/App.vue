@@ -111,7 +111,7 @@
         </v-col>
       </v-row>
 <!--      skills section-->
-      <v-row class="mt-6" id="skills">
+      <v-row class="mt-8" id="skills">
 <!--        title of section-->
         <v-col cols="12" class="text-start pl-4 pl-md-8 pl-lg-16">
           <div class="pl-lg-10 pl-xl-16">
@@ -138,7 +138,7 @@
               ></v-progress-linear>
           </div>
           <div class="text-center">
-            <v-btn variant="text" color="primary" :size="btnSize" @click="showAllSkills = !showAllSkills">Show More</v-btn>
+            <v-btn variant="text" color="primary" :size="btnSize" @click="showAllSkills = !showAllSkills">{{ showAllSkills ? 'Show Less' : 'Show More'}}</v-btn>
           </div>
         </v-col>
       </v-row>
@@ -329,12 +329,12 @@ const allSkills = ref([
   },
   {
     name : 'Nuxt.Js',
-    value: '90',
+    value: '92',
     color : '#3b8070'
   },
   {
     name : 'Tailwind Css',
-    value: "85",
+    value: "95",
     color : '#38B7F0'
   },
   {
@@ -344,7 +344,7 @@ const allSkills = ref([
   },
   {
     name : 'JavaScript',
-    value: "90",
+    value: "92",
     color : '#EFD81D'
   },
   {
@@ -439,7 +439,13 @@ const languages = ref([
 const educations = ref([
   {
     schoolName : 'Tabriz University',
-    time : 'Sep 2019 - present',
+    time : 'Oct 2023 - Present',
+    degree : 'Master of Computer Systems Architecture',
+    location : 'Tabriz , Iran'
+  },
+  {
+    schoolName : 'Tabriz University',
+    time : 'Sep 2019 - Jul 2023',
     degree : 'Bachelor of Computer Engineering',
     location : 'Tabriz , Iran'
   },

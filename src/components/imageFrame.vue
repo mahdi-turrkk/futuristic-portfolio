@@ -1,6 +1,6 @@
 <template>
     <v-container fluid>
-        <v-card style="border-radius: 0;overflow: visible;background: rgba(255, 51, 51, 0.1)" :style="{'border' : `dashed 3px ${useTheme().current.value.colors.secondary}`}"
+        <v-card style="border-radius: 0;overflow: visible;background: rgba(0, 255, 255, 0.1)" :style="{'border' : `dashed 3px ${useTheme().current.value.colors.secondary}`}"
                 class="pa-5 pa-md-10">
             <div class="borderTopLeft"></div>
             <div class="borderTopRight"></div>
@@ -24,8 +24,8 @@ const props = defineProps(['imageSrc'])
     animation-duration: 2000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    border-top: 7px solid #f51c40;
-    border-left: 7px solid #f51c40;
+    border-top: 7px solid #00FFFF;
+    border-left: 7px solid #00FFFF;
     position: absolute;
     top: -15px;
     bottom: calc(100% - 50px);
@@ -38,8 +38,8 @@ const props = defineProps(['imageSrc'])
     animation-duration: 2000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    border-top: 7px solid #f51c40;
-    border-right: 7px solid #f51c40;
+    border-top: 7px solid #00FFFF;
+    border-right: 7px solid #00FFFF;
     position: absolute;
     top: -15px;
     bottom: calc(100% - 50px);
@@ -52,8 +52,8 @@ const props = defineProps(['imageSrc'])
     animation-duration: 2000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    border-bottom: 7px solid #f51c40;
-    border-left: 7px solid #f51c40;
+    border-bottom: 7px solid #00FFFF;
+    border-left: 7px solid #00FFFF;
     position: absolute;
     top: calc(100% - 50px);
     bottom: -15px;
@@ -66,8 +66,8 @@ const props = defineProps(['imageSrc'])
     animation-duration: 2000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    border-bottom: 7px solid #f51c40;
-    border-right: 7px solid #f51c40;
+    border-bottom: 7px solid #00FFFF;
+    border-right: 7px solid #00FFFF;
     position: absolute;
     top: calc(100% - 50px);
     bottom: -15px;
